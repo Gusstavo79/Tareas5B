@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maquetado Framework CSS</title>
+
+    <!-- Bootstrap -->
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  </head>
+  <body>
+    <!-- cabecera -->
+    <section class="hero is-primary" style="background-color:#452282 ">
+  <div class="hero-body">
+    <div class="container" >
+      <h1 class="title" style="font-size: 60px;">
+        Universidad de Colima
+      </h1>
+      <h2 class="subtitle">
+        Facultad de Telematica
+      </h2>
+    </div>
+  </div>
+</section>
+    
+    <section class="container">
+        <div class="row">
+            <header>
+                <!-- menu -->
+                <nav class="navbar"style=" background-color: #f3f3fa;" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu" >
+    <div class="navbar-start">
+      <a class="navbar-item">Menú </a>
+      <a class="navbar-item">Inicio</a>
+      <a class="navbar-item">Nosotros</a>
+      <div class="navbar-item has-dropdown">
+        <a class="navbar-link">Servicíos</a>
+      </div>
+      
+    </div>
+     <div style="margin-top: 7px; margin-right: 550px" class="field is-grouped">
+         <p class="control is-expanded">
+           <input class="input" type="text" placeholder="Buscador">
+         </p>
+         <p class="control">
+           <a style="background-color: #fff; color: black;" class="button is-info">
+            Buscar
+           </a>
+         </p>
+
+         <div class="navbar-item has-dropdown" style="margin-left: 490px">
+        <a class="navbar-item">Usuario</a>
+        <a class="navbar-link">Mi cuenta</a>
+      </div>
+  </div>
+      
+  </div>
+</nav>
+            </header>
+        </div>
+    </section>
+
+    <!-- Para colocar como cabecera artículo destacado -->
+
+    <div class="tile is-parent" style="margin-left: 120px; margin-right:120px; margin-top: 10px;" >
+      <article class="tile is-child box" style="background-color: #f3f3fa;">
+        <h1 style="font-size: 50px ">Articulo destacado de la semana</h1>
+        <div class="content" >
+          <p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorem ad officiis nihil delectus quidem animi rerum, molestias sint natus ducimus quod, unde molestiae dolores laboriosam error facilis odio doloremque.</p>
+          <button class="button is-link">Leer mas</button>
+        </div>
+      </article>
+    </div>
+  </div>
+    <!-- Acomodo de articulos -->
+    <div class="tile is-ancestor" style="margin-left: 120px;margin-right:120px; margin-top: 20px">
+      <div> 
+        <!-- Primer bloque -->
+        <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2  style="font-size: 20px; font-weight: bold; ">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+      </div>
+      <!-- Segundo bloque -->
+      <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2 style="font-size: 20px;  font-weight: bold;">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+
+        <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2 style="font-size: 20px; font-weight: bold;">Titulo del articulo </h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+
+        <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2 style="font-size: 20px; font-weight: bold;">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+
+      </div>
+
+      <div class="tile is-ancestor" style="margin-left: 120px;margin-right:120px; margin-top: 25px;">
+      <div> 
+        <!-- Primer bloque -->
+        <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2  style="font-size: 20px; font-weight: bold;">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+      </div>
+      <!-- Segundo bloque -->
+      <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2 style="font-size: 20px;  font-weight: bold;">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+
+        <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2 style="font-size: 20px; font-weight: bold;">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+
+        <div class="is-parent" style="padding-right: 25px">
+          <article class="tile is-child box">
+          <h2 style="font-size: 20px; font-weight: bold;">Titulo del articulo</h2>
+          <figure></figure>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+          <a class="button is-link" style="background-color: green;" href="" >Leer mas</a>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Páginación -->
+    <nav class="pagination" role="navigation" aria-label="pagination" style="margin-left: 118px;">
+  <ul class="pagination-list">
+    <li>
+      <a class="pagination-link" aria-label="goto Page <" aria-current="page"><<</a>
+    </li>
+    <li>
+      <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+    </li>
+    <li>
+      <a class="pagination-link" aria-label="Goto page 2">2</a>
+    </li>
+    <li>
+      <a class="pagination-link" aria-label="Goto page 3">3</a>
+    </li>
+    <li>
+      <li>
+      <a class="pagination-link" aria-label="Goto page 4">4</a>
+    </li>
+    <li>
+      <li>
+      <a class="pagination-link" aria-label="Goto page 5">5</a>
+    </li>
+    <li>
+      <a class="pagination-link" aria-label="Page >" aria-current="page">>></a>
+    </li>
+  </ul>
+</nav>
+
+    <!-- Pie de pagina -->
+    <div>
+      <div>
+        <hr style="margin-left: 120px; margin-right: 120px; background-color: #4e4c53;">
+          <p style="text-align: center;">&copy; Desarrollado Por <a href="#">Gustavo Estudillo</a></p>        
+    </div>
+
+  </body>
+</html>
